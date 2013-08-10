@@ -89,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		555E8C3317B6F08A00315B9C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55FAC70017B6D957004B56CF /* MasterViewController.h */,
+				55FAC70117B6D957004B56CF /* MasterViewController.m */,
+				55FAC70317B6D957004B56CF /* DetailViewController.h */,
+				55FAC70417B6D957004B56CF /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		555E8C3417B6F09300315B9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55FAC6FA17B6D957004B56CF /* Main.storyboard */,
+				55FAC70617B6D957004B56CF /* Images.xcassets */,
+				55FAC6FD17B6D957004B56CF /* ExistingProject.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		55FAC6DA17B6D957004B56CF = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +146,8 @@
 			children = (
 				55FAC6F717B6D957004B56CF /* AppDelegate.h */,
 				55FAC6F817B6D957004B56CF /* AppDelegate.m */,
-				55FAC6FA17B6D957004B56CF /* Main.storyboard */,
-				55FAC70017B6D957004B56CF /* MasterViewController.h */,
-				55FAC70117B6D957004B56CF /* MasterViewController.m */,
-				55FAC70317B6D957004B56CF /* DetailViewController.h */,
-				55FAC70417B6D957004B56CF /* DetailViewController.m */,
-				55FAC70617B6D957004B56CF /* Images.xcassets */,
-				55FAC6FD17B6D957004B56CF /* ExistingProject.xcdatamodeld */,
+				555E8C3417B6F09300315B9C /* Resources */,
+				555E8C3317B6F08A00315B9C /* View Controllers */,
 				55FAC6EF17B6D957004B56CF /* Supporting Files */,
 			);
 			path = ExistingProject;
@@ -470,6 +486,7 @@
 				55FAC72017B6D958004B56CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FAC72117B6D958004B56CF /* Build configuration list for PBXNativeTarget "ExistingProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				55FAC72317B6D958004B56CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
