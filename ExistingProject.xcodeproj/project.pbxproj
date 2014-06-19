@@ -227,7 +227,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = iFeli;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					55FAC70B17B6D958004B56CF = {
 						TestTargetID = 55FAC6E217B6D957004B56CF;
